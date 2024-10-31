@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.promo-banner {
+    background-color: #4280d171;
+    padding: 30px;
+    text-align: center;
+    position: relative;
+}
+
+.promo-banner h2 {
+    color: #ffffff;
+    font-size: 2rem;
+}
+
+.promo-banner p {
+    color: #000000;
+    font-size: 1.2rem;
+}
+
+.produtos {
+    padding: 30px;
+    text-align: center;
+}
+
+.produtos h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.produtos-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 15px;
+    padding: 20px;
+}
+
+.produto {
+    border: 1px solid #ddd;
+    border-radius: 30px;
+    padding: 10px;
+    text-align: center;
+}
+
+.produto img {
+    width: 90%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.produto h3 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+.produto .preco {
+    font-size: 1rem;
+    color: #3377d1;
+    font-weight: bold;
+}
+
+.loja-banner {
+    background-color: #4280d171;
+    padding: 30px;
+    text-align: center;
+    margin-top: 2%;
+    position: relative;
+}
+.produto-banner {
+    background-color: #dddddd;
+    padding: 10px;
+    text-align: center;
+}
+.sobre-banner {
+    background-color: #b6c6da;
+    padding: 60px;
+    text-align: justify;
+}
+.confira-banner {
+    background-color: #ffffff;
+    padding: 0px;
+    text-align: center;
+
+}
